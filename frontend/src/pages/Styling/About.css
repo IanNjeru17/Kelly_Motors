@@ -1,0 +1,151 @@
+/* ===== ABOUT PAGE ===== */
+.about-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 3rem 1rem;
+}
+
+/* ===== HEADER ===== */
+.about-header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.about-header h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin-bottom: 0.5rem;
+}
+
+.about-tagline {
+  color: #e63946;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+/* ===== MAIN CARD ===== */
+.about-card {
+  background: white;
+  border-radius: 16px;
+  padding: 2.5rem;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.06);
+  margin-bottom: 2rem;
+}
+
+.about-section {
+  margin-bottom: 2rem;
+}
+
+.about-section:last-child {
+  margin-bottom: 0;
+}
+
+.about-section h2 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin-bottom: 0.75rem;
+  padding-left: 0.75rem;
+  border-left: 4px solid #e63946;
+}
+
+.about-section p {
+  color: #555;
+  line-height: 1.8;
+  font-size: 1rem;
+}
+
+/* ===== CONTACT ===== */
+.about-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.about-contact span {
+  color: #333;
+  font-size: 1rem;
+  padding: 0.75rem 1rem;
+  background: #f8f9fa;
+  border-radius: 10px;
+}
+
+/* ===== TESTIMONIALS ===== */
+.testimonials-card {
+  background: white;
+  border-radius: 16px;
+  padding: 2.5rem;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.06);
+}
+
+.testimonials-card h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1a1a2e;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+}
+
+.testimonial {
+  background: #f8f9fa;
+  padding: 1.25rem;
+  border-radius: 12px;
+  border-left: 4px solid #e63946;
+}
+
+.testimonial-stars {
+  color: #ffc107;
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.stars-empty {
+  color: #ddd;
+}
+
+.testimonial-text {
+  color: #444;
+  font-style: italic;
+  line-height: 1.7;
+  margin-bottom: 0.75rem;
+  font-size: 0.95rem;
+}
+
+.testimonial-author {
+  font-weight: 600;
+  color: #1a1a2e;
+  font-size: 0.9rem;
+}
+
+.testimonial-date {
+  font-size: 0.8rem;
+  color: #999;
+  margin-top: 0.25rem;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .about-page {
+    padding: 2rem 1rem;
+  }
+
+  .about-header h1 {
+    font-size: 1.8rem;
+  }
+
+  .about-card,
+  .testimonials-card {
+    padding: 1.5rem;
+  }
+
+  .testimonials-grid {
+    grid-template-columns: 1fr;
+  }
+}
